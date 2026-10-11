@@ -1,0 +1,2 @@
+import React from 'react';
+export default function Icon({ children, size = 18 }) { return <span className="icon" style={{ fontSize: size }} aria-hidden="true">{children}</span>; }
